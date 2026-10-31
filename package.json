@@ -1,0 +1,43 @@
+{
+  "name": "magida",
+  "private": true,
+  "version": "1.0.0",
+  "description": "QR table ordering for cafes: scan, order from your phone, and the kitchen sees it instantly.",
+  "author": "Luka Lomadze",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "dev": "concurrently -n api,web \"node --watch --disable-warning=ExperimentalWarning server/index.ts\" \"vite\"",
+    "build": "tsc --noEmit && vite build",
+    "start": "node --disable-warning=ExperimentalWarning server/index.ts",
+    "test": "vitest run",
+    "test:e2e": "playwright test",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@fontsource-variable/dm-sans": "^5.3.0",
+    "@fontsource-variable/fraunces": "^5.3.0",
+    "@fontsource/noto-sans-georgian": "^5.3.0",
+    "express": "^5.3.0",
+    "qrcode": "^1.5.4",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "react-router-dom": "^7.18.5"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.6.6",
+    "@types/qrcode": "^1.5.6",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "concurrently": "^10.0.6",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.5",
+    "vitest": "^5.0.5"
+  }
+}
