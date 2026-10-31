@@ -68,11 +68,10 @@ export function Home() {
 
       <section className="why">
         <div>
-          <h2>Why I built this</h2>
+          <h2>The problem</h2>
           <p>
-            I build websites for cafes in Tbilisi. A nice website doesn&rsquo;t solve their real problem, which is that on a busy
-            night customers wait a long time just to order, and paper tickets get lost. Magida fixes that with a QR code on each
-            table: no app to download, and no new hardware beyond a tablet in the kitchen.
+            On a busy night in a cafe, customers wait a long time just to order, and paper tickets get lost. Magida fixes that
+            with a QR code on each table: no app to download, and no new hardware beyond a tablet in the kitchen.
           </p>
         </div>
         <div>

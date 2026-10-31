@@ -2,8 +2,8 @@
 
 **Scan the QR code on your table, order from your phone, and the kitchen sees it instantly.**
 
-I build websites for cafes in Tbilisi. A website doesn't solve their real problem: on a busy night, customers wait a long
-time just to order, and paper tickets get lost. Magida needs no app and no new hardware beyond a tablet in the kitchen.
+On a busy night in a cafe, customers wait a long time just to order, and paper tickets get lost. Magida needs no app and
+no new hardware beyond a tablet in the kitchen.
 
 ![A customer's order on a phone, next to the kitchen board](docs/screenshots/order.png)
 
